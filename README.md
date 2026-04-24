@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/hero.svg" alt="XAI Token Lens" width="100%" /></p>
+
 # 🔬 XAI Token Lens
 
 > **See which tokens drive any LLM's prediction.** SHAP, LIME, and attention in one unified API. Zero-config interpretability for transformers.

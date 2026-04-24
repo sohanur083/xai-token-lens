@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="xai-token-lens">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a0a0f"/><stop offset="1" stop-color="#14141c"/>
+    </linearGradient>
+    <linearGradient id="grad4" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#00d4ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <g transform="translate(60, 90)">
+    <text font-family="ui-monospace, monospace" font-size="13" fill="#a78bfa" letter-spacing="2">EXPLAINABLE AI · TOKEN-LEVEL</text>
+    <text y="66" font-family="Space Grotesk" font-weight="700" font-size="96" fill="url(#grad4)" letter-spacing="-3">xai-token-lens</text>
+    <text y="114" font-family="Space Grotesk" font-size="22" fill="#a0a3b0">SHAP, LIME, attention. One unified API.</text>
+    <text y="144" font-family="Space Grotesk" font-size="22" fill="#a0a3b0">Publication-ready HTML. Any transformer.</text>
+  </g>
+  <g transform="translate(80, 260)" font-family="ui-monospace, monospace" font-size="14">
+    <g>
+      <rect x="0" width="80" height="36" fill="rgba(124,92,255,0.85)" rx="5"/><text x="40" y="24" text-anchor="middle" fill="#ffffff">Aspirin</text>
+      <rect x="90" width="90" height="36" fill="rgba(124,92,255,0.55)" rx="5"/><text x="135" y="24" text-anchor="middle" fill="#ffffff">reduces</text>
+      <rect x="190" width="40" height="36" fill="rgba(255,92,172,0.3)" rx="5"/><text x="210" y="24" text-anchor="middle" fill="#a0a3b0">the</text>
+      <rect x="240" width="60" height="36" fill="rgba(124,92,255,0.70)" rx="5"/><text x="270" y="24" text-anchor="middle" fill="#ffffff">risk</text>
+      <rect x="310" width="90" height="36" fill="rgba(124,92,255,0.82)" rx="5"/><text x="355" y="24" text-anchor="middle" fill="#ffffff">stroke</text>
+      <rect x="410" width="70" height="36" fill="rgba(255,92,172,0.25)" rx="5"/><text x="445" y="24" text-anchor="middle" fill="#a0a3b0">high-risk</text>
+      <rect x="490" width="90" height="36" fill="rgba(124,92,255,0.65)" rx="5"/><text x="535" y="24" text-anchor="middle" fill="#ffffff">patients</text>
+    </g>
+    <text x="0" y="72" font-size="11" fill="#a0a3b0">stronger purple = more support for prediction · pink = opposes</text>
+  </g>
+  <g transform="translate(760, 230)" font-family="Space Grotesk" font-weight="700">
+    <text font-size="72" fill="#a78bfa">3-in-1</text>
+    <text y="24" font-family="ui-monospace, monospace" font-weight="400" font-size="13" fill="#a0a3b0">SHAP · LIME · attention</text>
+    <text y="56" font-family="ui-monospace, monospace" font-weight="400" font-size="13" fill="#5ff08d">one unified Visualization object</text>
+  </g>
+</svg>
