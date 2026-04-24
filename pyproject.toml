@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xai-token-lens"
+version = "0.1.0"
+description = "Unified token-level explanations for any transformer — SHAP, LIME, attention in one API. HTML reports included."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Md Sohanur Rahman", email = "mdsohanur.rahman@utsa.edu"}]
+keywords = [
+  "xai", "explainable-ai", "shap", "lime", "attention",
+  "interpretability", "transformers", "huggingface", "captum",
+  "token-attribution", "medical-nlp"
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = []
+
+[project.optional-dependencies]
+full = ["transformers>=4.30", "torch>=2.0"]
+dev = ["pytest>=7"]
+
+[project.urls]
+Homepage = "https://github.com/sohanur083/xai-token-lens"
+Author = "https://sohanur083.github.io"
+
+[tool.setuptools.packages.find]
+where = ["src"]
